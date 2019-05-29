@@ -19,7 +19,7 @@ STON Edge Server 바이너리 패키지 압축 해제가 실패한다. ::
    $ tar -zxf ston.19.05.0.rhel.2.6.32.x64.tar.gz
 
 -  원인: root 권한이 없다.
-   대처: root 권한을 생성하거나, 슈퍼유저 권한으로 접속한다 (#sudo su)
+   대처: root 권한을 생성하거나, 슈퍼유저 권한으로 접속한다 ($ sudo su)
 
 
 .. _install-welcomepage:
