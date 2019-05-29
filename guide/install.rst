@@ -42,7 +42,7 @@ STON Edge Server 바이너리 패키지 압축 해제가 실패한다. ::
    대처: yum install httpd
    
 -  원인 #2: WM 구동에 필요한 패키지들이 구버전이다
-   대처: 신 버전으로 링크를 바꿔준다
+   대처: 신 버전으로 링크를 바꿔준다 ::
    
    $ ln -Tfs /lib64/libapr-1.so.0.6.3 ./libapr-1.so
    $ ln -Tfs /lib64/libapr-1.so.0.6.3 ./libapr-1.so.0
