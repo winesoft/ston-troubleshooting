@@ -59,7 +59,8 @@ Firewall이 설정되어있다
 아파치가 설치되지 않았다 (httpd)
 
 **대처:**
-아파치 설치 
+아파치 설치 ::
+
    $ yum install httpd
    
 **원인 #2:** WM 구동에 필요한 패키지들이 구버전이다 
@@ -84,8 +85,11 @@ Firewall이 설정되어있다
 
    설치방법
    OS 버전에 맞는 설치 패키지를 다운로드 한 뒤 서버에 업로드 한다.
+   
    tar -xvzf packages.tar.gz로 압축 파일을 풀고 packages 폴더 안에 있는 install.sh 파일을 실행한다.
+   
    설치가 완료 되면 STON Edge Server 설치 스크립트를 nosub 옵션을 주고 실행한다.
+   
    ex) ./ston.19.04.0.ubuntu.2.6.32.x64.sh nosub
 
 
