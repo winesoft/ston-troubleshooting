@@ -35,14 +35,16 @@ root 권한을 생성하거나, 슈퍼유저 권한으로 접속한다 ($ sudo s
 **원인 #1:**
 Firewall이 설정되어있다
 
-**대처:**
+**대처:** ::
+
    $ cat /etc/*os-release (버전 확인)
     
-    CentOS 6.x.x
+    CentOS 6.x.x ::
+    
    $ service iptables status
    $ service iptables stop
-    
-    CentOS 7.x.x
+   
+    CentOS 7.x.x ::
    $ systemctl stop firewalld
     
 
